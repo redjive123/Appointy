@@ -9,6 +9,14 @@ const Navbar = () => {
   const { aToken, setAToken } = useContext(AdminContext)
   const navigate = useNavigate()
 
+  const logout = () => {
+    navigate('/')
+    dToken && setDToken('')
+    dToken && localStorage.removeItem('dToken')
+    aToken && setAToken('')
+    aToken && localStorage.removeItem('aToken')
+  }
+
   return (
     <nav className='flex justify-between items-center px-4 sm:px-8 py-3 border-b border-neutral-200 bg-white/80 backdrop-blur-sm sticky top-0 z-40'>
       <div className='flex items-center gap-3 text-xs'>
