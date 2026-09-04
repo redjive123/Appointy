@@ -1,0 +1,8 @@
+<svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="126" height="126" rx="28" fill="#FBFBFB" stroke="#EAEAEA" stroke-width="2"/>
+  <circle cx="63" cy="63" r="38" fill="#F4F4F5"/>
+  <!-- Gastroenterology / Digestive Path -->
+  <path d="M58 42V52C58 58 50 63 50 72C50 81 58 87 67 87C75 87 79 81 79 73C79 66 74 61 69 57L66 52V42" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="63" cy="72" r="4" fill="#0070F3"/>
+  <path d="M56 42H68" stroke="#171717" stroke-width="4" stroke-linecap="round"/>
+</svg>

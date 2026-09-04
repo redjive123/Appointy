@@ -1,0 +1,12 @@
+<svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="126" height="126" rx="28" fill="#FBFBFB" stroke="#EAEAEA" stroke-width="2"/>
+  <circle cx="63" cy="63" r="38" fill="#F4F4F5"/>
+  <!-- Pediatric Care -->
+  <circle cx="63" cy="56" r="18" stroke="#171717" stroke-width="4"/>
+  <circle cx="48" cy="42" r="7" stroke="#171717" stroke-width="3.5" fill="#F4F4F5"/>
+  <circle cx="78" cy="42" r="7" stroke="#171717" stroke-width="3.5" fill="#F4F4F5"/>
+  <circle cx="57" cy="54" r="2.5" fill="#171717"/>
+  <circle cx="69" cy="54" r="2.5" fill="#171717"/>
+  <ellipse cx="63" cy="60" rx="3" ry="2" fill="#0070F3"/>
+  <path d="M52 82C55 77 60 75 63 75C66 75 71 77 74 82" stroke="#171717" stroke-width="4" stroke-linecap="round"/>
+</svg>

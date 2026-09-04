@@ -1,0 +1,9 @@
+<svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="126" height="126" rx="28" fill="#FBFBFB" stroke="#EAEAEA" stroke-width="2"/>
+  <circle cx="63" cy="63" r="38" fill="#F4F4F5"/>
+  <!-- Maternal / Gynecologist Health Care Emblem -->
+  <circle cx="63" cy="53" r="15" stroke="#171717" stroke-width="4"/>
+  <path d="M63 68V87" stroke="#171717" stroke-width="4" stroke-linecap="round"/>
+  <path d="M53 78H73" stroke="#171717" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="63" cy="53" r="6" fill="#0070F3"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="126" height="126" rx="28" fill="#FBFBFB" stroke="#EAEAEA" stroke-width="2"/>
+  <circle cx="63" cy="63" r="38" fill="#F4F4F5"/>
+  <!-- Neurology / Synapse Nodes -->
+  <circle cx="63" cy="46" r="5" fill="#0070F3"/>
+  <circle cx="48" cy="60" r="4.5" stroke="#171717" stroke-width="3" fill="#FBFBFB"/>
+  <circle cx="78" cy="60" r="4.5" stroke="#171717" stroke-width="3" fill="#FBFBFB"/>
+  <circle cx="52" cy="78" r="4.5" stroke="#171717" stroke-width="3" fill="#FBFBFB"/>
+  <circle cx="74" cy="78" r="4.5" stroke="#171717" stroke-width="3" fill="#FBFBFB"/>
+  <circle cx="63" cy="66" r="4" fill="#171717"/>
+  <path d="M63 51V62M63 62L48 60M63 62L78 60M63 70L52 78M63 70L74 78M48 64.5L52 74M78 64.5L74 74" stroke="#171717" stroke-width="3" stroke-linecap="round"/>
+</svg>

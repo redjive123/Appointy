@@ -1,0 +1,8 @@
+<svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="126" height="126" rx="28" fill="#FBFBFB" stroke="#EAEAEA" stroke-width="2"/>
+  <circle cx="63" cy="63" r="38" fill="#F4F4F5"/>
+  <!-- Dermatology / Skin Cell & Droplet -->
+  <path d="M63 42C63 42 46 62 46 72C46 81.3888 53.6112 89 63 89C72.3888 89 80 81.3888 80 72C80 62 63 42 63 42Z" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 70C58 67 61 63 65 63" stroke="#0070F3" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="71" cy="74" r="3" fill="#0070F3"/>
+</svg>
