@@ -134,6 +134,8 @@ To set up and run this project locally:
       JWT_SECRET=your_jwt_secret
       STRIPE_API_KEY=your_stripe_api_key
       RAZORPAY_API_KEY=your_razorpay_api_key
+      ADMIN_EMAIL=admin@appointy.com
+      ADMIN_PASSWORD=admin123
       ```
 
 4. **Run the Application**:
