@@ -137,6 +137,10 @@ To set up and run this project locally:
       ADMIN_EMAIL=admin@appointy.com
       ADMIN_PASSWORD=admin123
       ```
+    - Create a `.env` file in `frontend/` and `admin/` directories with:
+      ```env
+      VITE_BACKEND_URL=http://localhost:4000
+      ```
 
 4. **Run the Application**:
     ```bash
