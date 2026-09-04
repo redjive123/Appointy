@@ -77,16 +77,7 @@ const Navbar = () => {
       </ul>
 
       <div className='flex items-center gap-3'>
-        {/* Admin Portal shortcut */}
-        <button
-          onClick={() => window.open('https://appointy-six.vercel.app', '_blank')}
-          className='hidden sm:inline-flex items-center gap-1.5 border border-neutral-200 bg-white hover:bg-neutral-50 hover:border-neutral-300 text-neutral-700 text-xs font-medium px-3 py-1.5 rounded-md transition-all shadow-whisper'
-        >
-          <span className='w-1.5 h-1.5 rounded-full bg-emerald-500'></span>
-          Admin Portal
-        </button>
-
-        {token && userData ? (
+                {token && userData ? (
           <div className='flex items-center gap-2 cursor-pointer group relative'>
             <img className='w-9 h-9 rounded-full object-cover border border-neutral-200' src={userData.image || assets.profile_pic} alt="profile" />
             <img className='w-2.5 opacity-60 group-hover:opacity-100 transition-opacity' src={assets.dropdown_icon} alt="dropdown" />

@@ -2,29 +2,12 @@ import React, { useContext } from 'react'
 import { assets } from '../assets/assets'
 import { DoctorContext } from '../context/DoctorContext'
 import { AdminContext } from '../context/AdminContext'
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
   const { dToken, setDToken } = useContext(DoctorContext)
   const { aToken, setAToken } = useContext(AdminContext)
   const navigate = useNavigate()
-  const location = useLocation()
-
-  const logout = () => {
-    navigate('/')
-    dToken && setDToken('')
-    dToken && localStorage.removeItem('dToken')
-    aToken && setAToken('')
-    aToken && localStorage.removeItem('aToken')
-  }
-
-  const goToUserPanel = () => {
-    window.location.href = 'https://appointy-roan.vercel.app/'
-  }
-
-  const isOnDashboard =
-    location.pathname === '/admin-dashboard' ||
-    location.pathname === '/doctor-dashboard'
 
   return (
     <nav className='flex justify-between items-center px-4 sm:px-8 py-3 border-b border-neutral-200 bg-white/80 backdrop-blur-sm sticky top-0 z-40'>
@@ -42,17 +25,7 @@ const Navbar = () => {
           {aToken ? 'Admin Console' : 'Doctor Portal'}
         </span>
 
-        {/* User Panel Button */}
-        {isOnDashboard && (
-          <button
-            onClick={goToUserPanel}
-            className='hidden sm:inline-flex items-center gap-1.5 border border-neutral-200 bg-white hover:bg-neutral-50 hover:border-neutral-300 text-neutral-700 px-3 py-1.5 rounded-md text-xs font-medium shadow-whisper transition-all'
-          >
-            <span className='w-1.5 h-1.5 rounded-full bg-blue-500'></span>
-            Patient Portal
-          </button>
-        )}
-      </div>
+              </div>
 
       {/* Logout */}
       <button
