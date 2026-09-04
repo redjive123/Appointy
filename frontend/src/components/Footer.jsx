@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="md:col-span-3 flex flex-col gap-2.5">
           <p className="text-xs font-mono uppercase tracking-wider text-neutral-900 font-semibold mb-1">Support & Inquiries</p>
           <ul className="flex flex-col gap-2 text-xs sm:text-sm">
-            <li className="font-mono text-xs">+1 (800) 555-0199</li>
+            <li className="font-mono text-xs">+91 (22) 5555-0199</li>
             <li className="font-mono text-xs">support@appointy.health</li>
             <li className="text-xs text-neutral-400">Available 24/7 for patient emergency coordination</li>
           </ul>

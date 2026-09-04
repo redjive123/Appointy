@@ -27,16 +27,16 @@ const Contact = () => {
 
         <div className='md:col-span-7 flex flex-col gap-6 text-xs sm:text-sm text-neutral-600'>
           <div className='border border-neutral-200 bg-white rounded-lg p-6 shadow-whisper flex flex-col gap-3'>
-            <span className='font-mono text-xs uppercase tracking-wider text-neutral-400'>Headquarters</span>
-            <p className='text-base font-semibold text-neutral-950'>Global Operations Center</p>
-            <p className='text-neutral-500 leading-relaxed font-mono text-xs'>
-              54709 Healthcare Plaza, Suite 350 <br />
-              Washington, DC 20005, United States
-            </p>
-            <div className='pt-2 border-t border-neutral-100 flex flex-col gap-1 text-xs font-mono text-neutral-700'>
-              <p>Direct: +1 (415) 555-0132</p>
-              <p>Email: support@appointy.health</p>
-            </div>
+<span className='font-mono text-xs uppercase tracking-wider text-neutral-400'>Headquarters</span>
+              <p className='text-base font-semibold text-neutral-950'>India Operations Center</p>
+              <p className='text-neutral-500 leading-relaxed font-mono text-xs'>
+                54709 Healthcare Plaza, Suite 350 <br />
+                Mumbai, Maharashtra 400001, India
+              </p>
+              <div className='pt-2 border-t border-neutral-100 flex flex-col gap-1 text-xs font-mono text-neutral-700'>
+                <p>Direct: +91 (22) 5555-0132</p>
+                <p>Email: support@appointy.health</p>
+              </div>
           </div>
 
           <div className='border border-neutral-200 bg-white rounded-lg p-6 shadow-whisper flex flex-col gap-3'>
