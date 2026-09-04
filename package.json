@@ -1,0 +1,14 @@
+{
+  "name": "appointy-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Appointy - Doctor Appointment Booking Platform",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:admin": "npm --prefix admin run dev",
+    "dev:backend": "npm --prefix backend run server",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:admin": "npm --prefix admin run build",
+    "build": "npm run build:frontend && npm run build:admin"
+  }
+}
