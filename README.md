@@ -1,3 +1,7 @@
+<img width="2828" height="1496" alt="preview" src="https://github.com/user-attachments/assets/e0116043-c36f-411c-9809-45870dc6fb82" />
+
+---
+
 # Appointy - Doctor Appointment Web App
 
 **Appinty** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateways (Stripe and Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), Appointy provides an efficient, user-friendly experience for both patients and healthcare providers.
@@ -57,6 +61,8 @@
 
 ## Home Page
 
+<img width="2784" height="1468" alt="home-page" src="https://github.com/user-attachments/assets/bedc270e-2812-4d3c-9f0b-6e0e89223797" />
+
 - Features a user-friendly layout where users can:
   - **Search for doctors** based on specialties.
   - **View top doctors** and their profiles.
@@ -64,12 +70,13 @@
 - **Footer** includes navigation links: Home, About Us, Delivery Info, Privacy Policy, Contact Us.
 
 ## All Doctors Page
-
 - Lists all available doctors.
 - Users can **filter doctors by specialty**.
 - Clicking on a doctor's profile redirects to the **Doctor Appointment Page**.
 
 ## About Page
+
+<img width="2818" height="1482" alt="about" src="https://github.com/user-attachments/assets/462d3e97-7991-4933-9fbc-909ee51f1bc0" />
 
 - Provides information about **Appointy's vision** and mission.
 - **Why Choose Us** section highlights:
@@ -85,6 +92,8 @@
 - Footer navigation links.
 
 ## Doctor Appointment Page
+
+<img width="2802" height="1462" alt="doctor-info" src="https://github.com/user-attachments/assets/d4875c5c-51c1-4f3b-aa2d-419cfd4fa593" />
 
 - Displays detailed information about the selected doctor:
   - **Profile picture, qualification, experience**, and a brief description.
@@ -103,6 +112,8 @@
 - **Logout** option available.
 
 ## Admin Panel
+
+<img width="2824" height="1506" alt="admin-page" src="https://github.com/user-attachments/assets/ce5920ee-ff83-4ffb-a46a-aaf72960a295" />
 
 - **Dashboard**:
   - Displays statistics: **Number of doctors**, **appointments**, **patients**, and **latest bookings**.
