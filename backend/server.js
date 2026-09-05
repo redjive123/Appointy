@@ -45,4 +45,8 @@ app.get('/test-db', (req, res) => {
 });
 
 
-app.listen(port, () => console.log(`Server started on PORT:${port}`))
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(port, () => console.log(`Server started on PORT:${port}`))
+}
+
+export default app;
