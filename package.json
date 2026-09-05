@@ -4,7 +4,7 @@
   "private": true,
   "description": "Appointy - Doctor Appointment Booking Platform",
   "scripts": {
-    "postinstall": "npm --prefix frontend install && npm --prefix backend install && npm --prefix admin install",
+    "postinstall": "npm --prefix backend install",
     "start": "npm --prefix backend run start",
     "dev:frontend": "npm --prefix frontend run dev",
     "dev:admin": "npm --prefix admin run dev",
