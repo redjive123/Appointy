@@ -109,45 +109,65 @@
   - **Razorpay Integration**
 - Ensures a secure and smooth payment experience for users.
 
+## Live URLs
+
+- **Frontend (Patient)**: https://appointy-frontend-theta.vercel.app
+- **Admin Panel**: https://appointy-chi.vercel.app
+- **Backend API**: https://appointy-urx0.onrender.com
+
 ## Project Setup
 
 To set up and run this project locally:
 
 1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/redjive123/Appointy.git
-    cd Appointy
-    ```
+     ```bash
+     git clone https://github.com/redjive123/Appointy.git
+     cd Appointy
+     ```
 
 2. **Install Dependencies**:
-    ```bash
-    npm install
-    cd frontend && npm install && cd ..
-    cd backend && npm install && cd ..
-    cd admin && npm install && cd ..
-    ```
+     ```bash
+     npm install
+     cd frontend && npm install && cd ..
+     cd backend && npm install && cd ..
+     cd admin && npm install && cd ..
+     ```
 
 3. **Environment Variables**:
-    - Create a `.env` file in the root directory and add the following:
-      ```env
-      MONGO_URI=your_mongodb_connection_string
-      JWT_SECRET=your_jwt_secret
-      STRIPE_API_KEY=your_stripe_api_key
-      RAZORPAY_API_KEY=your_razorpay_api_key
-      ADMIN_EMAIL=admin@appointy.com
-      ADMIN_PASSWORD=admin123
-      ```
-    - Create a `.env` file in `frontend/` and `admin/` directories with:
-      ```env
-      VITE_BACKEND_URL=https://appointy-urx0.onrender.com
-      ```
+     - Create a `.env` file in the root directory and add the following:
+       ```env
+       MONGO_URI=your_mongodb_connection_string
+       JWT_SECRET=your_jwt_secret
+       STRIPE_API_KEY=your_stripe_api_key
+       RAZORPAY_API_KEY=your_razorpay_api_key
+       ADMIN_EMAIL=admin@appointy.com
+       ADMIN_PASSWORD=admin123
+       CLOUDINARY_NAME=
+       CLOUDINARY_API_KEY=
+       CLOUDINARY_SECRET_KEY=
+       ```
+     - Create a `.env` file in `frontend/` and `admin/` directories with:
+       ```env
+       VITE_BACKEND_URL=https://appointy-urx0.onrender.com
+       ```
 
 4. **Run the Application**:
-    ```bash
-    npm run dev:frontend
-    npm run dev:backend
-    npm run dev:admin
-    ```
+     ```bash
+     npm run dev:frontend
+     npm run dev:backend
+     npm run dev:admin
+     ```
+
+## Deployment
+
+- **Frontend**: Deploy `frontend/` on Vercel
+- **Admin**: Deploy `admin/` on Vercel
+- **Backend**: Deploy `backend/` on Render
+- **Database**: MongoDB Atlas
+
+On Vercel, set `VITE_BACKEND_URL = https://appointy-urx0.onrender.com` in each project's Environment Variables.
+
+On Render, set the following Environment Variables: `MONGO_URI`, `JWT_SECRET`, `STRIPE_API_KEY`, `RAZORPAY_API_KEY`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `CLOUDINARY_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_SECRET_KEY`.
 
 ## Folder Structure
 
