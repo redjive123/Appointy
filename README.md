@@ -139,7 +139,7 @@ To set up and run this project locally:
       ```
     - Create a `.env` file in `frontend/` and `admin/` directories with:
       ```env
-      VITE_BACKEND_URL=http://localhost:4000
+      VITE_BACKEND_URL=https://appointy-urx0.onrender.com
       ```
 
 4. **Run the Application**:
