@@ -2,6 +2,29 @@
 
 **Appinty** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateways (Stripe and Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), Appointy provides an efficient, user-friendly experience for both patients and healthcare providers.
 
+## Live Demo
+
+- **Frontend (Patient)**: https://appointy-frontend-theta.vercel.app
+- **Admin Panel**: https://appointy-chi.vercel.app
+- **Backend API**: https://appointy-urx0.onrender.com
+
+## Table of Contents
+
+- [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [Home Page](#home-page)
+- [All Doctors Page](#all-doctors-page)
+- [About Page](#about-page)
+- [Contact Page](#contact-page)
+- [Doctor Appointment Page](#doctor-appointment-page)
+- [User Profile](#user-profile)
+- [Admin Panel](#admin-panel)
+- [Doctor Dashboard](#doctor-dashboard)
+- [Payment Integration](#payment-integration)
+- [Project Setup](#project-setup)
+- [Deployment](#deployment)
+- [Folder Structure](#folder-structure)
+
 ## Tech Stack
 
 - **Frontend**: React.js
@@ -48,7 +71,7 @@
 
 ## About Page
 
-- Provides information about **Appointy’s vision** and mission.
+- Provides information about **Appointy's vision** and mission.
 - **Why Choose Us** section highlights:
   - **Efficiency**: Streamlined appointment process.
   - **Convenience**: Online booking and payment.
@@ -108,12 +131,6 @@
   - **Cash Payment**
   - **Razorpay Integration**
 - Ensures a secure and smooth payment experience for users.
-
-## Live URLs
-
-- **Frontend (Patient)**: https://appointy-frontend-theta.vercel.app
-- **Admin Panel**: https://appointy-chi.vercel.app
-- **Backend API**: https://appointy-urx0.onrender.com
 
 ## Project Setup
 
@@ -192,5 +209,3 @@ appointy/
 ├── .env             # Environment Variables
 └── package.json     # Root monorepo package.json
 ```
-
----
